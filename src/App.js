@@ -14,7 +14,7 @@ function App() {
   },[])
 
   return (
-    <div >
+    <div>
       {allCountryData && allCountryData.map(country => {
         return <CountryCard key={country.cca3}
         name={country.name.common}
