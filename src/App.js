@@ -1,6 +1,14 @@
+import CountryCard from "./components/countryCard";
+
 function App() {
   return (
-    <></>
+    <div style={{width : "25%"}}>
+      <CountryCard 
+        name="Islamic Republic Of IRAN"
+        capitalName="Tehran"
+        flagImageLink="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAkFBMVEX////aAAAjn0AZnDl0wIX76OjoXl7tkJDs9u7yr6/mY2Mfnj11xIjtk5OPx5mMxpf53d3jQUH++PjrhIT1y8uYz6T409Pqf3/iRkb2wMDkVVXO5dJku3jY69zj8eae06rvoKDfLCw+qVZSsmhatG5rvH1+wIvA4se12bsyp0+r2LXzt7fndnbdICDiODjob28K6UKqAAADzklEQVRoge2V65KjKhSF4bSXSHtDEAU13mNaW/P+bzcb0pl0T9X5Z6rm1HEXyWKx4RN30KB/XhjogB/wA37AD/gBP+AHfEf4m4n3d90e8a7j6d6+2/f3P93bvy5Elo6y64a+G62v6Pq+66zfDlL98HA95Pr+4Uzq99Sx0yufDoVhFEaWHxbzcIki48IxnaPw4aKPYr7UI3TAhWE/p+FUhvdkWEKq6EwOnJWG832mXngpUXk9W+fifClmvwK5VlrSOorORTVH52gqCkil16KYrOp6Laoqiq51VZz6Yopgqp9Ol6qohkIvPF3q1DrB4Gyg6JpWl+piFeezVQ+XSk+tx6kqoqIfinRKp7o7VVN9BVfP0zSXcLWpHssKXDqN16k6h5ehngAzXdKimvzZirSrohH5vv/hj70/+h992WtX+v3o+105GBmM6/thKH1/GHwtUOhSu84vB1/P0VJ+QML3x4/hjgEoOp1O4clEejZSn7+7uTBynYxMX3I1UsxGzuld6u/OQNERf3PYHhICefZr6BmmFGcvACdxAnvPMvuru2csVCwIeRh70Bd02ZPNcOzJB1x6MWb7sRvcJLn9gNt5AgN7sTmmyP1EDzj6DBDFfCc4gY3T4AkPKGyd7MNOMLZtvDzhnvZ4nyMj8QqV+QEXaMVyF7iHc7Tg5glvAJyb3h5wAjvXT+aCzQ1k8GuSneASKxRjJ9E9XYzEwTZSO5UlwS2yW6gz7F+fQIFbG7U7/aBQggSeUaKx+hIEns9kr6NojkqsNw1fsd5+DNUXO8FRo/TrpdWn24YCwYtFNXux4XxwlCisdFlAEsR3favHSNNXDA3YaLeaPINhiB1fts8QTbZp+JY1++87gUCOc9eXhP2iv/7/Wdi2zWwTLDbi/pCGG/GkkWUxIj0jvDESuz/kQYMPHAAnd9S25RQrRwd1nG2j23p3uXJoDo4ap8BBtO3d5Q6kKF2dr4VKL8TkvhAcClw3CG4k4x5l0NUtcFiQudoFuq28IS4J7i7IG5ct6j4vCJzm5srN/Vr4GbDGNTlIuplCdBGK8/gmGyW5IB7PJY9d95NxLhgTpOGCB4Q1HC4hgoALkTEvE1xQPcBjh0kQuQmZc24DXkFONQaKPCYyToi0BWHbTWTLTTC1cMn4RjlbmOdimy/BQql0XSlduki5uGoTzPXgFppFxu5tY0smbgvcBZfEU58e4+BzRAhpiWpB1m0z4uhG2nwzosgKg1DLTRGS52TLQbZWC6zKKSFO224byGowzkrz9g5dEX5hHPADfsAP+AE/4Af8gP9X4L8AmdqEqAitjaMAAAAASUVORK5CYII="
+      />
+    </div>
   );
 }
 
